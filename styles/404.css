@@ -1,0 +1,37 @@
+html{
+  color: #808080;
+  display:table;
+  font-family: sans-serif;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+
+}
+
+body{
+  display: table-cell;
+  vertical-align: middle;
+  margin: 2em auto;
+}
+
+h1{
+  color:444;
+  font-size: 3em;
+  font-weight: 500;
+}
+
+p{
+  margin: 0 auto;
+  width: 300px;
+}
+
+@media only screen and (max-width:280px) {
+  body, p{
+    width: 95%;
+  }
+
+  h1{
+    font-size: 1.5em;
+    margin: 0 0 0.3em;
+  }
+}
